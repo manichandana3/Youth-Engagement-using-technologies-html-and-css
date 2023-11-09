@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.motive{
+    height: 100vh;
+    position:relative;
+}
+.motive::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-image: url("../student\ live.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}

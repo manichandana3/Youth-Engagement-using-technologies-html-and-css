@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.super{
+    height: 100vh;
+    position:relative;
+}
+.super::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+   height: 100%;
+   width: 100%;
+   background-image: url("../super.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+   opacity: 0.6;
+}

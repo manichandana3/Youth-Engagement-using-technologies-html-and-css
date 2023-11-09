@@ -1,0 +1,24 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.work{
+    height: 100vh;
+    position:relative;
+}
+.work::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-image: url("../motivatee.png");
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
